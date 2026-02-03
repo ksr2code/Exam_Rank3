@@ -7,7 +7,7 @@ def echo_validator(text: str) -> bool:
     start = 0
     end = len(new_text) - 1
 
-    while (start < end):
+    while start < end:
         if new_text[start] != new_text[end]:
             return False
         start += 1
